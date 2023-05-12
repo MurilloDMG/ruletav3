@@ -21,7 +21,7 @@ function girar(){
       if (result.value == true) {
         giros = 0;
          document.querySelector('.elije').innerHTML = 'TU PREMIO ES: ';
-         document.querySelector('.contador').innerHTML = 'TURNOS: ' + giros;        
+         document.querySelector('.contador').innerHTML = '' + giros;        
       }
     })
   }
@@ -29,7 +29,7 @@ function girar(){
 
 function premio(premios){
 
-  document.querySelector('.elije').innerHTML = 'GANASTE UN: ' + premios;
+  document.querySelector('.elije').innerHTML = 'GANASTE: ' + premios;
 
 }
 

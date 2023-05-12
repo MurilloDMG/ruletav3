@@ -20,24 +20,26 @@ body {
     height: 0px;
     width: 1500px;
     margin-left: auto;
-    /*padding: 20px;
-    */
+    padding: 10px;
+    
     padding-bottom: 50px;
 }
 
 
-
+.imgpro{
+ max-width: 80%;
+}
 
 .vara {
-    height: 70px;
-    width: 15px;
+    height: 50px;
+    width: 10px;
     background-color: #d2d1e1;
     margin: auto;
     position: relative;
     top: 10px;
     border-radius: 0px 0px 8px 8px;
-    border: 1px solid #000;
-    border-top: 5px solid #000;
+    border: 1px solid #d5df4c;
+    border-top: 5px solid #e7dd10;
     z-index: 1000;
 }
 
