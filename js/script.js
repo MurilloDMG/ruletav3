@@ -3,7 +3,7 @@ const ruleta = document.querySelector('#ruleta');
 ruleta.addEventListener('click', girar);
 giros = 0;
 function girar(){
-  if (giros < 10) {
+  if (giros < 20) {
     let rand = Math.random() * 7200;
     calcular(rand);
     giros++;
@@ -42,33 +42,42 @@ function premio(premios){
 
   setTimeout(() => {
   switch (true) {
-    case valor > 0 && valor <= 45:
-     premio("2 estrellas");
+    case valor > 0 && valor <= 18:
+     premio("Siga participando");
      break;
-     case valor > 45 && valor <= 90:
-     premio("5 Piezas");
+     case valor > 18 && valor <= 54:
+     premio("Esfero");
      break;
-     case valor > 90 && valor <= 135:
-     premio("2 Corazón"); 
+     case valor > 54 && valor <= 90:
+     premio("Tomatodo"); 
      break; 
-     case valor > 135 && valor <= 180:
-     premio("2 Nigiri");
+     case valor > 90 && valor <= 126:
+     premio("Gorra");
      break;
-     case valor > 180 && valor <= 225:
-     premio("Handroll Mini");
+     case valor > 126 && valor <= 162:
+     premio("Llavero");
      break; 
-     case valor > 225 && valor <= 270:
-     premio("NO HAY CORTESIAS ESTA VEZ");
+     case valor > 162 && valor <= 198:
+     premio("Siga participando");
      break;
-     case valor > 270 && valor <= 315:
-     premio("Una Coca Cola de 2L");
+     case valor > 198 && valor <= 234:
+     premio("Esfero");
      break;
-     case valor > 315 && valor <= 360:
-     premio("2 Enjoy"); 
+     case valor > 234 && valor <= 270:
+     premio("Tomatodo"); 
      break;
+     case valor > 270 && valor <= 306:
+     premio("Siga participando"); 
+     break;
+     case valor > 306 && valor <= 342:
+     premio("Mochila"); 
+     break;
+     case valor > 342 && valor <= 360:
+      premio("Siga Participando"); 
+      break;
   }
 
- }, 5000);
+ }, 5800);
 
 }
 }
