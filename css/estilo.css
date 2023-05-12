@@ -8,15 +8,26 @@ html{
 }
 
 body {
-    /*background-color: rgba(60,60,59,255);*/
-    background-image: url(/image/fondo\ ruleta.png);
+    /*background-image: url(/image/fondo\ ruleta.png);*/
+    
+    background-color: rgba(60,60,59,255);
+    background-image: url(/image/PRODUCTOS.png);
+    background-position: center;
+    
+}
+.productos{
+    
+    height: 100px;
+    width: 100px;
     
 }
 .logs{
     height: 0px;
     width: 100px;
     margin: auto;
+    padding: 20px;
 }
+
 
 
 
