@@ -29,7 +29,7 @@ function girar(){
 
 function premio(premios){
 
-  document.querySelector('.elije').innerHTML = 'TU PREMIO ES: ' + premios;
+  document.querySelector('.elije').innerHTML = 'GANASTE UN: ' + premios;
 
 }
 

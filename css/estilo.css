@@ -11,21 +11,18 @@ body {
     /*background-image: url(/image/fondo\ ruleta.png);*/
     
     background-color: rgba(60,60,59,255);
-    background-image: url(/image/PRODUCTOS.png);
-    background-position: center;
+    
+
     
 }
-.productos{
-    
-    height: 100px;
-    width: 100px;
-    
-}
+
 .logs{
     height: 0px;
-    width: 100px;
-    margin: auto;
-    padding: 20px;
+    width: 1500px;
+    margin-left: auto;
+    /*padding: 20px;
+    */
+    padding-bottom: 50px;
 }
 
 
@@ -53,7 +50,7 @@ img {
 /*pading absulete debemos eliminar para que el texto este encima de la ruleta*/
 #premio {
     color: white;
-    /*position: absolute;*/
+    position: absolute;
     font-weight: bold;
     font-size: 25px;
     padding-top: 20px;
